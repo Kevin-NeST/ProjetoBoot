@@ -1,0 +1,504 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+
+/* Cebeçalho */
+.navbar {
+    background-color: #fff;
+    padding:
+        /* 30px  */
+        40px;
+    text-align: center;
+}
+
+#container-cabecalho {
+    padding: 0;
+}
+
+.navbar form {
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.navbar i {
+    padding-top: 10px;
+}
+
+.navbar input {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    background-color: transparent;
+}
+
+.menu-center a {
+    text-decoration: none;
+    color: #444;
+    padding: 0 30px 0 30px;
+}
+
+.menu-end {
+    padding: 0 0 0 10%;
+}
+
+/* Carousel */
+#container-carousel {
+    padding: 0 40px 0 40px;
+    height: 60vh;
+    margin-bottom: 20px;
+}
+
+.carousel-inner {
+    height: 60vh;
+    background-color: #F5F5F5;
+}
+
+.carousel-item {
+    height: 60vh;
+}
+
+.carousel-item img {
+    width: 50%;
+    height: 100%;
+}
+
+#carouselExampleCaptions .carousel-caption {
+    left: 50%;
+    bottom: 7.25rem;
+    text-align: start;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #fff;
+}
+
+.main-btn {
+    background-color: #65DAF9;
+    color: #fff;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    border-color: #65DAF9;
+}
+
+#container-carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.carousel-indicators .active {
+    background-color: #8F8F8F;
+}
+
+
+/* Sessão 2 */
+#sessao-2 .row {
+    padding: 40px;
+    justify-content: space-between;
+}
+
+#sessao-2 .row div {
+    background-color: #FBFBFB;
+}
+
+#sessao-2 .card {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 50px;
+    height: 480px;
+}
+
+#sessao-2 .card .card-body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#sessao-2 .card .card-body i {
+    display: none;
+}
+
+#sessao-2 .card .card-text {
+    padding-top: 40px;
+    padding-left: 20px;
+    width: fit-content;
+    border-bottom: 1px solid black;
+}
+
+#sessao-2 img {
+    height: auto;
+    width: 50%;
+}
+
+#sessao-2 .card .card-footer {
+    border-top: none;
+}
+
+/* Sessao 3 */
+#sessao-3 .navbar {
+    padding: 0;
+}
+
+#sessao-3 .navbar .container-fluid {
+    padding: 0;
+}
+
+#sessao-3 .row {
+    padding: 40px;
+}
+
+#sessao-3 .container-fluid {
+
+    border-bottom: 1px solid #EEEEEE;
+}
+
+#sessao-3 #lista {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+#sessao-3 #lista li {
+    list-style-type: none;
+    padding-right: 14px;
+}
+
+#sessao-3 #lista li a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+#sessao-3 form {
+    background-color: transparent;
+    width: 150px;
+}
+
+
+/* Sessao 3 cards */
+#sessao3-cards .container-fluid {
+    padding: 0;
+}
+
+#sessao3-cards .row {
+    padding: 40px;
+    justify-content: space-between;
+}
+
+#sessao3-cards .card {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    padding-bottom: 30px;
+}
+
+#sessao3-cards .card .card-body {
+    padding: 0;
+    margin: 0;
+    background-color: #FBFBFB;
+}
+
+#sessao3-cards .card .card-footer {
+    padding: 0;
+    padding-top: 5px;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+}
+
+#sessao3-cards .card-footer .hover {
+    display: none;
+}
+
+#sessao3-cards .card .card-footer:hover>.hover {
+    display: block;
+}
+
+#sessao3-cards .card .card-footer:hover>.hover>p {
+    font-weight: bold;
+}
+
+#sessao3-cards .card .card-footer:hover>.hover>i {
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#sessao3-cards .card .card-footer:hover>.ativo {
+    display: none;
+}
+
+#sessao3-cards h6 {
+    font-size: 25px;
+    font-weight: 300;
+    position: relative;
+}
+
+#sessao3-cards h6::before {
+    content: "";
+    position: absolute;
+    top: 0.5em;
+    width: 3em;
+    height: 0.05em;
+    left: 42%;
+    background-color: currentColor;
+}
+
+#sessao3-cards h6::after {
+    content: "";
+    position: absolute;
+    top: 0.5em;
+    width: 3em;
+    height: 0.05em;
+    right: 42%;
+    background-color: currentColor;
+}
+
+/* Sessao 4 */
+#sessao-4 .container-fluid {
+    padding: 0;
+}
+
+#sessao-4 .row {
+    padding: 40px;
+    justify-content: space-between;
+}
+
+#sessao-4 .card-1,
+.card-2 {
+    width: 55rem;
+    padding: 0;
+    border: none;
+}
+
+#sessao-4 .card-body {
+    padding: 0 10%;
+    background-color: #F0F0F0;
+}
+
+#sessao-4 ul {
+    padding: 0;
+    margin: 0;
+}
+
+#sessao-4 .card-body .list-1 {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+#sessao-4 .card-1 .card-body .list-2 {
+    list-style-type: none;
+    text-align: end;
+    padding-top: 50px;
+}
+
+#sessao-4 .card-1 .list-2 .titulo {
+    font-weight: bold;
+}
+
+#sessao-4 .card-1 .list-2 button {
+    margin-top: 35px;
+    border: 1px solid currentColor;
+    background-color: transparent;
+    padding: 10px;
+}
+
+#sessao-4 .card-2 .card-body .list-2 {
+    list-style-type: none;
+    text-align: inherit;
+    padding-top: 50px;
+}
+
+#sessao-4 .card-2 .list-2 .titulo {
+    font-weight: bold;
+}
+
+#sessao-4 .card-2 .list-2 button {
+    margin-top: 35px;
+    border: 1px dashed currentColor;
+    background-color: transparent;
+    padding: 10px;
+}
+
+/* News */
+#news .container-fluid {
+    padding: 0;
+}
+
+#news .row {
+    padding: 40px 40px 20px 40px;
+    justify-content: space-between;
+}
+
+#news .card {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 50px;
+    background-color: #F0F0F0
+}
+
+#news .card .card-body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+}
+
+#news img {
+    height: auto;
+    width: 50%;
+}
+
+#news .card .card-footer {
+    border-top: none;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+#news .card .card-footer ul {
+    list-style-type: none;
+}
+
+#news .card .card-footer .lista-1 {
+    padding: 0;
+    display: flex;
+}
+
+#news .card .card-footer .li-1 {
+    border: 1px solid currentColor;
+    padding: 10px;
+}
+
+#news .card .card-footer .lista-1 p {
+    margin: 0;
+}
+
+#news .card .card-footer .lista-2 .li-2-1 {
+    position: relative;
+    font-size: 20px;
+}
+
+#news .card .card-footer .lista-2 .li-2-2 {
+    position: relative;
+    margin-top: 20px;
+}
+
+#news .card .card-footer .lista-2 .li-2-1::after {
+    content: "";
+    position: absolute;
+    top: 2em;
+    width: 3em;
+    height: 0.05em;
+    left: 0;
+    background-color: currentColor;
+}
+
+
+/* Sessao 5 */
+#sessao-5 {
+    padding-top: 50px;
+    background-color: #F0F0F0;
+}
+
+#sessao-5 ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+#sessao-5 #img-1 {
+    padding-top: 15px;
+    height: 380px;
+}
+
+/* Footer */
+#sessao-footer .container-fluid {
+    padding: 0;
+}
+
+#sessao-footer .row {
+    padding: 10px 40px;
+}
+
+#sessao-footer .footer {
+    justify-content: space-between;
+    padding: 0;
+}
+
+#sessao-footer .footer,.list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0px;
+}
+
+#sessao-footer li,a {
+    text-decoration: none;
+    padding: 5px;
+    color: #444;
+}
+
+#sessao-footer .center {
+    text-align: center;
+}
+
+#sessao-footer i {
+    color:#8F8F8F;
+    font-size: 25px;
+}
+
+#sessao-footer i:hover {
+    color: #444;
+}
+
+#sessao-footer .end p {
+margin: 0;
+}
+
+#sessao-footer .end input {
+    border: 1px solid rgb(141, 141, 141);
+    padding: 2px;
+    width: 200px;
+    font-size: small;
+}
+
+#sessao-footer .end button {
+    border: 0;
+    padding: 5px 20px;
+    background-color: #333333;
+    color: #F5F5F5;
+    font-size: small;
+}
