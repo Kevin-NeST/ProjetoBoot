@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Gerais */
+.container {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h4 {
+    color: #FFFFFF;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+header .container {
+    height: auto;
+    background-image: url(/imgs/background.png);
+    max-width: 1595px;
+}
+
+header .cabecalho {
+    padding-top: 30px;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+header h4 {
+    font-size: xx-large;
+}
+
+header ul {
+    padding: 0;
+    margin-top: 30px;
+    height: 50px;
+}
+
+header ul li,
+header ul li * {
+    height: 100%;
+}
+
+header .input {
+    width: 380px;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 0 10px;
+    color: #AEB1B5;
+}
+
+header .input:focus {
+    color: #212326;
+}
+
+header .bttn {
+    width: 165px;
+    background-color: #212326;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+header .bttn:active {
+    transform: scale(0.98);
+}
+
+header .cabecalho p {
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-bottom: 90px;
+}
+
+header #logo {
+    width: 130px;
+    padding-bottom: 60px;
+}
+
+/* Sessao 1 */
+#sessao-1 {
+    margin-bottom: 100px;
+}
+
+#sessao-1 .colunas {
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sessao-1 .coluna {
+    width: 320px;
+    padding: 30px;
+}
+
+#sessao-1 .coluna i {
+    color: #008060;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+#sessao-1 .coluna p {
+    color: #6B7177;
+}
+
+/* Sessao 2 */
+#sessao-2 {
+    margin-bottom: 30px;
+}
+
+#sessao-2 .conteudo {
+    width: 100%;
+    padding: 30px 10%;
+}
+
+#sessao-2 .conteudo::before {
+    content: "";
+    position: relative;
+    top: -30px;
+    display: inline-block;
+    width: 100%;
+    height: 0.05em;
+    background-color: #D2D5D9;
+}
+
+#sessao-2 .conteudo::after {
+    content: "";
+    position: relative;
+    bottom: -20px;
+    display: inline-block;
+    width: 100%;
+    height: 0.05em;
+    background-color: #D2D5D9;
+}
+
+#sessao-2 .empresas {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sessao-2 .empresas img {
+    max-width: 85px;
+    max-height: 30px;
+}
+
+/* Sessao 3 */
+#sessao-3 .conteudo {
+    width: 100%;
+    padding: 75px 10%;
+}
+
+#sessao-3 .linhas {
+    padding: 20px 140px;
+    color: #000;
+    text-align: center;
+}
+
+#sessao-3 .linhas h4 {
+    color: #000;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+#sessao-3 .linhas p {
+    margin-bottom: 55px;
+}
+
+#sessao-3 .linhas input {
+    padding: 15px 30px;
+    border: none;
+    background-color: #008060;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#sessao-3 .linhas input:active {
+    transform: scale(0.98);
+}
+
+/* Sessao 4 */
+#sessao-4 {
+    max-width: 1595px;
+    background-color: #FAF9F8;
+    padding-bottom: 35px;
+}
+
+#sessao-4 h3 {
+    font-weight: 300;
+    color: #004C3F;
+    margin-bottom: 40px;
+}
+
+#sessao-4 .conteudo {
+    width: 100%;
+    padding: 75px 10%;
+    text-align: center;
+}
+
+#sessao-4 .accordion {
+    padding: 0 300px;
+}
+
+#sessao-4 .accordion-item {
+    background-color: transparent;
+    padding: 20px 0;
+    border-bottom: 1px solid #D2D5D9;
+}
+
+#sessao-4 .accordion-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#sessao-4 .accordion-header p,
+#sessao-4 .accordion-header i {
+    font-size: 17px;
+}
+
+#sessao-4 button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+/* Footer */
+#footer .conteudo {
+    width: 100%;
+    padding: 15px 10%;
+    text-align: end;
+}
+
+#footer ul {
+    margin: 0;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#footer li {
+    margin-left: 20px;
+}
+
+#footer a {
+    color: #008060;
+}
